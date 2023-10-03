@@ -1,0 +1,42 @@
+//node 05_iterations/five.js
+
+const programming = ["js", "cpp","py"];
+//call back function doesnot have name
+
+// programming.forEach( function (item) {
+//     console.log(item);
+// })
+
+// programming.forEach( (item) => {
+//     console.log(item);
+// });
+
+
+// const printMe = (item) =>{
+//     console.log(item);
+// }
+
+// programming.forEach(printMe);
+
+// programming.forEach( (item,index,arr) => {
+//     console.log(item,index,arr);
+// });
+
+const myCoding = [
+    { 
+        languageName : "javascript",
+        languageFileName : "js"
+    },
+    { 
+        languageName : "python",
+        languageFileName : "py"
+    },
+    { 
+        languageName : "java",
+        languageFileName : "java"
+    }
+]
+
+myCoding.forEach( (item) => {
+    console.log(item.languageName);
+})
